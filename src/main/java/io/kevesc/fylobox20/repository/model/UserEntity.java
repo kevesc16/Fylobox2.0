@@ -31,7 +31,7 @@ public class UserEntity {
     @Column(name = "correo",updatable = true, nullable = false, length = 30)
     private String correo;
 
-    @Column(name = "telefono", nullable = false, length = 100)
+    @Column(name = "telefono", nullable = true, length = 100)
     private String telefono;
 
     @Column(name = "usuario", nullable = false, length = 100)

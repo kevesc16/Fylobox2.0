@@ -252,7 +252,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -271,6 +271,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/kjesc/OneDrive/Escritorio/repo3/Fylobox2.0",
+    "node.js.selected.package.tslint": "(autodetect)",
     "spring.configuration.checksum": "657cc39eef36b27f14d61eae303fa6bb",
     "vue.rearranger.settings.migration": "true"
   }
