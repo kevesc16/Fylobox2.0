@@ -92,7 +92,7 @@ $(document).ready(function(){
             alert("Usuario no existe")
         }else{    
             alert('Has ingresado correctamente')
-            location.href="pagina1.html"
+            location.href="pagina4.html"
         }
     });
 })
@@ -140,6 +140,18 @@ $('#guardar').click(function() {
         rol: $('#rol').val()
     };
 
+    function ocultarBotonAdministracion(rol) {
+        if (rol === 'administrador') {
+            $('#btnAdministracion').hide();
+        } else {
+            $('#btnAdministracion').show();
+        }
+    }
+
+// Uso de la función
+    ocultarBotonAdministracion(user.rol);
+
+
     // Enviar la solicitud AJAX al backend
     $.ajax({
         url: '/users',
@@ -157,5 +169,8 @@ $('#guardar').click(function() {
             alert('Error al registrar usuario');
         }
     });
+
+var btnAdministracion = document.getElementById("btnAdministracion");
+
 });
 

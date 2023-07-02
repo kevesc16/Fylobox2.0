@@ -92,7 +92,7 @@ $(document).ready(function(){
             alert("Usuario no existe")
         }else{    
             alert('Has ingresado correctamente')
-            location.href="pagina1.html"
+            location.href="pagina4.html"
         }
     });
 })
@@ -139,6 +139,10 @@ $('#guardar').click(function() {
         password: $('#password').val(),
         rol: $('#rol').val()
     };
+})
+// Uso de la función
+    ocultarBotonAdministracion(user.rol);
+
 
     // Enviar la solicitud AJAX al backend
     $.ajax({
@@ -156,6 +160,5 @@ $('#guardar').click(function() {
             // Manejar el error si es necesario
             alert('Error al registrar usuario');
         }
-    });
 });
 
