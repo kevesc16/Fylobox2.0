@@ -86,17 +86,17 @@ $("#InicioSe").validate({
     }
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     $("#btnSesion").click(function(){
         if($("#InicioSe").valid() == false) {
             alert("Usuario no existe")
         }else{    
-            alert('Has ingresado correctamente')
-            location.href="pagina1.html"
+            alert('Has ingresado correctamente ESTO ES LO QUE SE MUESTRA')
+            location.href="pagina4.html"
         }
     });
 })
-
+*/
 $(document).ready(function(){
     $("#btnVolver2").click(function(){
         location.href="Principal.html"
@@ -157,5 +157,44 @@ $('#guardar').click(function() {
             alert('Error al registrar usuario');
         }
     });
+});
+
+$(document).ready(function() {
+    // Agregar un evento click al botón "Iniciar Sesión"
+    $("#btnSesion").click(function() {
+        // Obtener los valores del formulario
+        const usuario = $("#usuario").val();
+        const password = $("#password").val();
+
+        // Crear el objeto con las credenciales del usuario
+        const credentials = {
+            usuario: usuario,
+            password: password
+        };
+        // Realizar la solicitud POST utilizando AJAX
+        $.ajax({
+            url: '/users/login', // Ruta al endpoint de inicio de sesión en el backend
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(credentials),
+            success: function (response) {
+                // La respuesta del servidor debería indicar si el inicio de sesión fue exitoso
+                if (response.success) {
+                    alert('Bienvenid@'+ usuario);
+                    // Redirigir a la página principal u otra página de tu aplicación
+                    window.location.href = 'pagina4.html';
+                } else {
+                    // Mostrar un mensaje de error en caso de credenciales inválidas
+                    alert("Credenciales inválidas. Inténtalo de nuevo.");
+
+                }
+            },
+            error: function (error) {
+                // Manejar el error si es necesario
+                alert("Error al realizar la solicitud de inicio de sesión.");
+
+            }
+        })
+    })
 });
 

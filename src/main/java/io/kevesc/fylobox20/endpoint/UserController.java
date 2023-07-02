@@ -2,6 +2,7 @@ package io.kevesc.fylobox20.endpoint;
 
 import io.kevesc.fylobox20.service.UserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +17,39 @@ public class UserController {
     public ResponseEntity<List<User>> getUsers() {
         List<User> users = userService.getListUsers();
         return ResponseEntity.ok(users);
+    }
+/*
+    @PostMapping("/users/Login")
+    public ResponseEntity<?> loginUser(@RequestBody UserLoginRequest userLoginRequest) {
+
+        String usuario = userLoginRequest.getUsuario();
+        String password = userLoginRequest.getPassword();
+
+        // Lógica para verificar el inicio de sesión con la base de datos
+        boolean loginSuccess = userService.loginUser(usuario, password);
+
+        if (loginSuccess) {
+            return ResponseEntity.ok().body("Inicio de sesión exitoso.");
+        } else {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Credenciales inválidas.");
+        }
+    }
+
+ */
+
+    @PostMapping("/users/login")
+    public ResponseEntity<?> loginUser(@RequestBody UserLoginRequest userLoginRequest) {
+        String usuario = userLoginRequest.getUsuario();
+        String password = userLoginRequest.getPassword();
+
+        // Lógica para verificar el inicio de sesión con la base de datos
+        boolean loginSuccess = userService.loginUser(usuario, password);
+
+        if (loginSuccess) {
+            return ResponseEntity.ok().body("Inicio de sesión exitoso.");
+        } else {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Credenciales inválidas.");
+        }
     }
 
     @GetMapping("/users/{id}")

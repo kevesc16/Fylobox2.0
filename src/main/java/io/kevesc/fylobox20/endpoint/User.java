@@ -15,6 +15,6 @@ public class User {
     private String password;
     private String rol;
 
-//carlitos es gay
+
 
 }
