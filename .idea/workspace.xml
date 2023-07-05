@@ -5,25 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86fc494e-06e2-40ec-bd8e-c4f408d2fe84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fylobox2-0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/DeleteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/GetUserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/GetUsersResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/PostResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/PutResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/model/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/model/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/model/MoviesEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/model/RoleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/model/VentsEntity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql_imports/movies.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql_imports/movies_vents.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql_imports/roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql_imports/vents.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Principal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ModDtosU.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/ModDtosU.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Mod_Pelis.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Mod_Pelis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pagina4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pagina4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/DeleteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/GetUserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/GetUsersResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/PostResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/PutResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/model/MoviesEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/model/RoleEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/model/VentsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql_imports/movies.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql_imports/movies_vents.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql_imports/roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql_imports/vents.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/JavaScripts/form_jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/JavaScripts/form_jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Mod_Pelis.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/Mod_Pelis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Principal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/Register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,18 +85,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.last.introduce.type": "LET",
     "last_opened_file_path": "C:/Users/kjesc/OneDrive/Escritorio/repo3/Fylobox2.0",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "spring.configuration.checksum": "657cc39eef36b27f14d61eae303fa6bb",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,7 +138,11 @@
       <option name="presentableId" value="Default" />
       <updated>1688153978192</updated>
       <workItem from="1688153979827" duration="275000" />
-      <workItem from="1688228326563" duration="19541000" />
+      <workItem from="1688228326563" duration="20256000" />
+      <workItem from="1688306203702" duration="4834000" />
+      <workItem from="1688311054549" duration="17376000" />
+      <workItem from="1688432580870" duration="3200000" />
+      <workItem from="1688518261534" duration="18868000" />
     </task>
     <servers />
   </component>
@@ -98,50 +150,10 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js</url>
-          <line>179</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js</url>
-          <line>181</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js</url>
-          <line>182</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js</url>
-          <line>184</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js</url>
-          <line>185</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js</url>
-          <line>187</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/UserRepository.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="password" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

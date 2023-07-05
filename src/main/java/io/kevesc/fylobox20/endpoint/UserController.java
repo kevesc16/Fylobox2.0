@@ -18,37 +18,17 @@ public class UserController {
         List<User> users = userService.getListUsers();
         return ResponseEntity.ok(users);
     }
-/*
-    @PostMapping("/users/Login")
-    public ResponseEntity<?> loginUser(@RequestBody UserLoginRequest userLoginRequest) {
-
-        String usuario = userLoginRequest.getUsuario();
-        String password = userLoginRequest.getPassword();
-
-        // Lógica para verificar el inicio de sesión con la base de datos
-        boolean loginSuccess = userService.loginUser(usuario, password);
-
-        if (loginSuccess) {
-            return ResponseEntity.ok().body("Inicio de sesión exitoso.");
-        } else {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Credenciales inválidas.");
-        }
-    }
-
- */
-
     @PostMapping("/users/login")
     public ResponseEntity<?> loginUser(@RequestBody UserLoginRequest userLoginRequest) {
         String usuario = userLoginRequest.getUsuario();
         String password = userLoginRequest.getPassword();
 
-        // Lógica para verificar el inicio de sesión con la base de datos
         boolean loginSuccess = userService.loginUser(usuario, password);
 
         if (loginSuccess) {
-            return ResponseEntity.ok().body("Inicio de sesión exitoso.");
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body(true);
         } else {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Credenciales inválidas.");
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body(false);
         }
     }
 

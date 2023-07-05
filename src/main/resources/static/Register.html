@@ -32,7 +32,7 @@
                 <div class="col-md-4">
                     <label for="rol">Tipo de Usuario</label><br>
                     <select name="rol" id="rol" class="form-select">
-                        <option value="" disabled>Seleccionar</option>
+                        <option value="" disabled selected>Seleccionar</option>
                         <option value="Administrador">Administrador</option>
                         <option value="Cliente">Cliente</option>
                     </select>
@@ -50,7 +50,7 @@
                 <div class="col-md-4">
                     <label for="genero">Genero</label><br>
                     <select name="genero" id="genero" class="form-select">
-                        <option value="" disabled>Seleccionar</option>
+                        <option value="" disabled selected>Seleccionar</option>
                         <option value="masculino">Masculino</option>
                         <option value="femenino">Femenino</option>
                         <option value="noBinario">No Binario</option>
@@ -74,8 +74,9 @@
             </div>
             
                 <button type="button" id="guardar" class="btn btn-outline-info my-4">Crear Cuenta</button>
-                <button type="reset" id="limpiar" class="btn btn-outline-secondary my-4">Limpiar</button>
-                <a type="button" id="volver" class="btn btn-outline-warning my-4 ml-auto" href="Principal.html" style="position: fixed; right: 290px;">Volver</a>
+                <a href="Login.html" id="contraOlv">¿Ya tienes cuenta? Inicia sesión aquí</a>
+                <!--button type="reset" id="limpiar" class="btn btn-outline-secondary my-4">Limpiar</button-->
+                <a type="button" id="volver" class="btn btn-outline-warning my-4 ml-auto" href="index.html" style="position: fixed; right: 290px;">Volver</a>
         </form>
     </div>
     <!--JQUERY-->

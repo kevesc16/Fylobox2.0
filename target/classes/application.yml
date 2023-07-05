@@ -19,6 +19,4 @@ spring:
           import_files: sql_imports/Roles.sql,sql_imports/user.sql,sql_imports/movies.sql,sql_imports/vents.sql
         dialect: org.hibernate.dialect.H2Dialect
         show_sql: true
-  sql:
-    init:
-      mode: always
+  sql.init.mode: always
