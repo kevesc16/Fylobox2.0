@@ -4,6 +4,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
+
 public class User {
     private int id;
     private String nombre;
@@ -15,6 +16,6 @@ public class User {
     private String password;
     private String rol;
 
-//carlitos es gay
+
 
 }

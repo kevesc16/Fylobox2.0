@@ -1,14 +1,13 @@
 package io.kevesc.fylobox20.service;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import io.kevesc.fylobox20.endpoint.User;
 import io.kevesc.fylobox20.repository.UserRepository;
 import io.kevesc.fylobox20.repository.model.UserEntity;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class UserService {
@@ -80,5 +79,14 @@ public class UserService {
         user.setPassword(userEntity.getPassword());
         user.setRol(userEntity.getRol());
         return user;
+    }
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+
+    public boolean loginUser(String usuario, String password) {
+        UserEntity user = userRepository.findByUsuarioAndPassword(usuario, password);
+        return user != null;
     }
 }

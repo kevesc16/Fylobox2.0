@@ -2,6 +2,7 @@ package io.kevesc.fylobox20.endpoint;
 
 import io.kevesc.fylobox20.service.UserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +17,19 @@ public class UserController {
     public ResponseEntity<List<User>> getUsers() {
         List<User> users = userService.getListUsers();
         return ResponseEntity.ok(users);
+    }
+    @PostMapping("/users/login")
+    public ResponseEntity<?> loginUser(@RequestBody UserLoginRequest userLoginRequest) {
+        String usuario = userLoginRequest.getUsuario();
+        String password = userLoginRequest.getPassword();
+
+        boolean loginSuccess = userService.loginUser(usuario, password);
+
+        if (loginSuccess) {
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body(true);
+        } else {
+            return ResponseEntity.status(HttpStatus.ACCEPTED).body(false);
+        }
     }
 
     @GetMapping("/users/{id}")

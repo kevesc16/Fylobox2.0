@@ -5,254 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86fc494e-06e2-40ec-bd8e-c4f408d2fe84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/endpoint/DeleteResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/endpoint/GetUserResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/endpoint/GetUsersResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/endpoint/PostResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/endpoint/PutResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/endpoint/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/endpoint/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/repository/model/MoviesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/repository/model/RoleEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/repository/model/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/repository/model/VentsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/java/io/kevesc/fylobox20/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/sql_imports/movies.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/sql_imports/movies_vents.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/sql_imports/roles.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/sql_imports/user.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/sql_imports/vents.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/CSS/diseño.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/CSS/diseñoCarrito.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/CSS/diseñoForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/CSS/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/B_1_1080x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/B_2_1080x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/Carrito.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/L_1_250x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/L_1_378x283.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/L_1_700x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/L_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/L_2_250x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/LogoPag.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/LogoPrin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/LogoPrin1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_C/C_C1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_C/C_C2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_C/C_C3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_C/L_C1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_E/C_C3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_E/C_E1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_E/C_E2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_E/L_E.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_F/C_F1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_F/C_F2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_F/C_F3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_F/L_F.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_J/C_J1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_J/C_J2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_J/C_J3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_J/L_J.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_JU/C_JU1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_JU/C_JU2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_JU/C_JU3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_JU/C_JU4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_JU/L_JU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_M/C_M1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_M/C_M2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_M/C_M3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_M/L_M.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_MA/C_MA1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_MA/C_MA2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_MA/C_MA3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_MA/L_MA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_P/C_P1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_P/C_P2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_P/C_P3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_P/L_P.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_Q/C_Q1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_Q/C_Q2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_Q/C_Q3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_Q/C_Q4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_Q/L_Q.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_S/C_S1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_S/C_S2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_S/C_S3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_S/L_S.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_S/scarface.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SH/C_SH1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SH/C_SH2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SH/C_SH3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SH/L_SH.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SH/SK2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SO/C_SO1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SO/C_SO2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SO/C_SO3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_SO/L_SO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_T/C_T1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_T/C_T2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_T/C_T3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_T/logoT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_W/C_W1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_W/C_W2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_W/C_W3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_W/L_W.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_WH/C_WH1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_WH/C_WH2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_WH/C_WH3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/lo_car_new/L_C_WH/L_WH.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Imagenes/img_logo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/JavaScripts/Mod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/JavaScripts/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/JavaScripts/carrito.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/JavaScripts/form_jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/JavaScripts/traduccion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/ModDtosU.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Mod_Pelis.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Principal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/Register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/main/resources/static/pagina4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/src/test/java/io/kevesc/fylobox20/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/endpoint/DeleteResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/endpoint/GetUserResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/endpoint/GetUsersResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/endpoint/PostResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/endpoint/PutResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/endpoint/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/endpoint/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/repository/model/MoviesEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/repository/model/RoleEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/repository/model/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/repository/model/VentsEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/io/kevesc/fylobox20/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/sql_imports/movies.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/sql_imports/movies_vents.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/sql_imports/roles.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/sql_imports/user.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/sql_imports/vents.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/CSS/diseño.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/CSS/diseñoCarrito.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/CSS/diseñoForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/CSS/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/B_1_1080x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/B_2_1080x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/Carrito.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/L_1_250x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/L_1_378x283.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/L_1_700x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/L_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/L_2_250x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/LogoPag.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/LogoPrin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/LogoPrin1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_C/C_C1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_C/C_C2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_C/C_C3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_C/L_C1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_E/C_C3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_E/C_E1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_E/C_E2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_E/L_E.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_F/C_F1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_F/C_F2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_F/C_F3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_F/L_F.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_J/C_J1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_J/C_J2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_J/C_J3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_J/L_J.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_JU/C_JU1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_JU/C_JU2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_JU/C_JU3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_JU/C_JU4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_JU/L_JU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_M/C_M1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_M/C_M2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_M/C_M3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_M/L_M.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_MA/C_MA1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_MA/C_MA2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_MA/C_MA3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_MA/L_MA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_P/C_P1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_P/C_P2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_P/C_P3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_P/L_P.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_Q/C_Q1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_Q/C_Q2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_Q/C_Q3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_Q/C_Q4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_Q/L_Q.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_S/C_S1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_S/C_S2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_S/C_S3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_S/L_S.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_S/scarface.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SH/C_SH1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SH/C_SH2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SH/C_SH3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SH/L_SH.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SH/SK2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SO/C_SO1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SO/C_SO2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SO/C_SO3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_SO/L_SO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_T/C_T1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_T/C_T2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_T/C_T3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_T/logoT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_W/C_W1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_W/C_W2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_W/C_W3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_W/L_W.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_WH/C_WH1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_WH/C_WH2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_WH/C_WH3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/lo_car_new/L_C_WH/L_WH.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Imagenes/img_logo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/JavaScripts/Mod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/JavaScripts/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/JavaScripts/carrito.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/JavaScripts/carrito2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/JavaScripts/form_jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/JavaScripts/paginas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/JavaScripts/traduccion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/ModDtosU.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Mod_Pelis.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Principal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/Trailer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examen_html/Fylobox2.0/target/classes/static/pagina4.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fylobox2-0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/DeleteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/GetUserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/GetUsersResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/PostResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/PutResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/endpoint/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/model/MoviesEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/model/RoleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/repository/model/VentsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kevesc/fylobox20/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql_imports/movies.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql_imports/movies_vents.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql_imports/roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql_imports/vents.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/JavaScripts/form_jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ModDtosU.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/ModDtosU.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Mod_Pelis.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Mod_Pelis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pagina4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pagina4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/DeleteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/GetUserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/GetUsersResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/PostResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/PutResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/endpoint/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/model/MoviesEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/model/RoleEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/repository/model/VentsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/kevesc/fylobox20/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql_imports/movies.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql_imports/movies_vents.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql_imports/roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql_imports/vents.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/JavaScripts/form_jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/JavaScripts/form_jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Mod_Pelis.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/Mod_Pelis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Principal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/Register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -264,17 +85,50 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "LET",
+    "last_opened_file_path": "C:/Users/kjesc/OneDrive/Escritorio/repo3/Fylobox2.0",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "spring.configuration.checksum": "657cc39eef36b27f14d61eae303fa6bb",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.kevesc.fylobox20.endpoint" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Fylobox2-0" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.kevesc.fylobox20.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.kevesc.fylobox20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -284,10 +138,22 @@
       <option name="presentableId" value="Default" />
       <updated>1688153978192</updated>
       <workItem from="1688153979827" duration="275000" />
+      <workItem from="1688228326563" duration="20256000" />
+      <workItem from="1688306203702" duration="4834000" />
+      <workItem from="1688311054549" duration="17376000" />
+      <workItem from="1688432580870" duration="3200000" />
+      <workItem from="1688518261534" duration="18868000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="password" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

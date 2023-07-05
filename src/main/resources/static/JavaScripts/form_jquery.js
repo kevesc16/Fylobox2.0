@@ -47,7 +47,7 @@ $("#form_registro").validate({
 $(document).ready(function(){
     $("#guardar").click(function(){
         if($("#form_registro").valid() == false) {
-            return;
+
         }else{
             
             let nombre = $("#nombre").val();
@@ -58,7 +58,7 @@ $(document).ready(function(){
             let usuario = $("#usuario").val();
             let contrasena = $("#password").val();
             let conContrasena = $("#ConPassword").val();
-            var expresionRegular = /^\S+$/;
+            let expresionRegular = /^\S+$/;
 
             if(!expresionRegular.test(nombre) ||
             !expresionRegular.test(apellido) ||
@@ -86,20 +86,20 @@ $("#InicioSe").validate({
     }
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     $("#btnSesion").click(function(){
         if($("#InicioSe").valid() == false) {
             alert("Usuario no existe")
         }else{    
-            alert('Has ingresado correctamente')
-            location.href="pagina1.html"
+            alert('Has ingresado correctamente ESTO ES LO QUE SE MUESTRA')
+            location.href="pagina4.html"
         }
     });
 })
-
+*/
 $(document).ready(function(){
     $("#btnVolver2").click(function(){
-        location.href="Principal.html"
+        location.href="index.html"
     });
 })
 
@@ -140,22 +140,56 @@ $('#guardar').click(function() {
         rol: $('#rol').val()
     };
 
-    // Enviar la solicitud AJAX al backend
+    // Send the AJAX request to the backend
     $.ajax({
         url: '/users',
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(user),
-        success: function(response) {
-            // Manejar la respuesta del servidor si es necesario
+        success: function (response) {
+            // Handle the server response if necessary
             alert(response);
-            // Limpiar el formulario después de un registro exitoso
-            $('#form_registro')[0].reset();
+            // Clear the form after successful registration
+            $('#form_registro')[0].reset(), window.location.href = 'Login.html';
         },
-        error: function(error) {
-            // Manejar el error si es necesario
+        error: function (error) {
+            // Handle the error if necessary
             alert('Error al registrar usuario');
         }
     });
+})
+$(document).ready(function() {
+    // Agregar un evento click al botón "Iniciar Sesión"
+    $("#btnSesion").click(function() {
+        // Obtener los valores del formulario
+        const user = {
+            usuario: $("#usuario").val(),
+            password: $("#password").val()
+        };
+        // Realizar la solicitud POST utilizando AJAX
+        $.ajax({
+            url: '/users/login', // Ruta al endpoint de inicio de sesión en el backend
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(user),
+            success: function (response) {
+                // La respuesta del servidor debería indicar si el inicio de sesión fue exitoso
+                if (response) {
+                    alert('Bienvenid@' + user.usuario);
+                    // Redirigir a la página principal u otra página de tu aplicación
+                    window.location.href = 'pagina4.html';
+                } else {
+                    // Mostrar un mensaje de error en caso de credenciales inválidas
+                    alert("Oye mete bien el usuario y clave");
+
+                }
+            },
+            error: function (error) {
+                // Manejar el error si es necesario
+                alert("Error al realizar la solicitud de inicio de sesión.");
+            }
+        })
+      })
+
 });
 
