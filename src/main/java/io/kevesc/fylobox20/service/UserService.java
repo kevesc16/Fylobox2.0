@@ -81,4 +81,14 @@ public class UserService {
         user.setRol(userEntity.getRol());
         return user;
     }
+
+    public String getUserRole(String rol) {
+        // Lógica para obtener el rol del usuario desde la base de datos
+        // utilizando el UserRepository o cualquier otro mecanismo de acceso a datos
+        UserEntity user = userRepository.findByRol(rol);
+        if (rol != null) {
+            return user.getRol();
+        }
+        return null;
+    }
 }

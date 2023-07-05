@@ -92,7 +92,7 @@ $(document).ready(function(){
             alert("Usuario no existe")
         }else{    
             alert('Has ingresado correctamente')
-            location.href="pagina4.html"
+                location.href="pagina4.html"
         }
     });
 })
@@ -139,9 +139,6 @@ $('#guardar').click(function() {
         password: $('#password').val(),
         rol: $('#rol').val()
     };
-})
-// Uso de la función
-    ocultarBotonAdministracion(user.rol);
 
 
     // Enviar la solicitud AJAX al backend
@@ -160,5 +157,29 @@ $('#guardar').click(function() {
             // Manejar el error si es necesario
             alert('Error al registrar usuario');
         }
+    })
 });
+
+$(document).ready(function() {
+    $("#btnSesion").click(function() {
+            $.ajax({
+            url: "/api/user/rol",
+            method: "GET",
+            data: { rol: rol },
+            success: function(userRol) {
+                if (userRol === "Administrador") {
+                    $("#btnAdministracion").hide();
+                } else {
+                    $("#btnAdministracion").show();
+                }
+            },
+            error: function() {
+               alert ("Error al obtener el rol del usuario");
+            }
+        });
+    });
+});
+
+
+
 

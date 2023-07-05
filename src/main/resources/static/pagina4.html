@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="CSS/diseñoCarrito.css">
     <!--Animated.CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--JQery-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--Barra de navegacion-->
@@ -29,7 +32,7 @@
     <!--Peliculas-->
     <div class="container Peliculas">
         <div class="row card-deck cartelera my-5">
-            
+
         </div>
     </div>
     <!--Barra de Paginas-->
@@ -37,7 +40,7 @@
         <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
                 <li class="page-item">
-                    <button class="page-link" id="pagNext">Más Peliculas</>
+                    <button class="page-link" id="pagNext">Más Peliculas</button>
                 </li>
             </ul>
         </nav>
@@ -89,11 +92,32 @@
     </div>
     <!--termino Total-->
     <!--Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
-        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="JavaScripts/carrito.js"></script>
     <script src="JavaScripts/paginas.js"></script>
     <script src="JavaScripts/api.js"></script>
-</body>
+    <script src="JavaScripts/form_jquery.js"></script>
+    <script>
+        $(document).ready(function() {
+            var hideBtnAdministracion = sessionStorage.getItem('hideBtnAdministracion');
+            if (hideBtnAdministracion === 'true') {
+                $('#btnAdministracion').hide();
+                $('.columCarrito').hide(); // Hide the columCarrito div
+                $('.barraCarrito').hide();
+                $('.btn-outline-info').hide();
+
+            }
+        });
+    </script>
+    <script>
+        // Obtener el rol del usuario actual desde backend
+        var userRole = "cliente"; // Supongamos que el rol es "cliente"
+
+        // Verificar el rol y mostrar/ocultar el botón según corresponda
+        if (userRole === "administrador") {
+            document.getElementByRol("btnAdministracion").style.display = "block";
+        } else {
+            document.getElementByRol("btnAdministracion").style.display = "none";
+        }
+    </script>
 </html>

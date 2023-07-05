@@ -59,4 +59,11 @@ public class UserController {
         int userId = userService.addUser(user);
         return ResponseEntity.ok("Registro exitoso con ID: " + userId);
     }
+
+    @GetMapping("/api/user/rol")
+    public String getUserRol(@RequestParam("rol") String rol) {
+        String userRol = userService.getUserRole(rol);
+        return userRol;
+    }
 }
+

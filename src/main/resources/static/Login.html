@@ -38,5 +38,20 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
     <script src="JavaScripts/form_jquery.js"></script>
     <script src="JavaScripts/traduccion.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#btnSesion').click(function() {
+                var usuario = $('#usuario').val();
+                var password = $('#password').val();
+
+                // Aquí debes realizar la lógica para verificar el tipo de usuario
+                var esAdministrador = true; // Ejemplo, asumiendo que es administrador
+                sessionStorage.setItem('esAdministrador', esAdministrador);
+
+                // Redirige a pagina4.html
+                window.location.href = 'pagina4.html';
+            });
+        });
+    </script>
 </body>
 </html>

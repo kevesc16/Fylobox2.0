@@ -43,6 +43,7 @@ public class UserEntity {
     @Column(name = "rol", nullable = false, length = 100)
     private String rol;
 
+
     /*@ManyToOne
     @JoinColumn(name = "role_id")
     private RoleEntity role;*/
