@@ -9,6 +9,7 @@ public class UserLoginRequest {
 
         private String usuario;
         private String password;
+        private String rol;
 
 
 
