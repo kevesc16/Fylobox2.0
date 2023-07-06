@@ -159,37 +159,44 @@ $('#guardar').click(function() {
     });
 })
 $(document).ready(function() {
-    // Agregar un evento click al botón "Iniciar Sesión"
-    $("#btnSesion").click(function() {
-        // Obtener los valores del formulario
-        const user = {
-            usuario: $("#usuario").val(),
-            password: $("#password").val()
-        };
-        // Realizar la solicitud POST utilizando AJAX
-        $.ajax({
-            url: '/users/login', // Ruta al endpoint de inicio de sesión en el backend
-            type: 'POST',
-            contentType: 'application/json',
-            data: JSON.stringify(user),
-            success: function (response) {
-                // La respuesta del servidor debería indicar si el inicio de sesión fue exitoso
-                if (response) {
-                    alert('Bienvenid@' + user.usuario);
-                    // Redirigir a la página principal u otra página de tu aplicación
-                    window.location.href = 'pagina4.html';
-                } else {
-                    // Mostrar un mensaje de error en caso de credenciales inválidas
-                    alert("Oye mete bien el usuario y clave");
+                        // Agregar un evento click al botón "Iniciar Sesión"
+                        $("#btnSesion").click(function() {
+                            // Obtener los valores del formulario
+                            const user = {
+                                usuario: $("#usuario").val(),
+                                password: $("#password").val(),
+                                rol:$("#rol").val()
+                            };
+                            // Realizar la solicitud POST utilizando AJAX
+                            $.ajax({
+                                url: '/users/login', // Ruta al endpoint de inicio de sesión en el backend
+                                type: 'POST',
+                                contentType: 'application/json',
+                                data: JSON.stringify(user),
+                                success: function (response) {
+                                    console.log(response.rol)
+                                    if (response) {
+                                        if('Cliente' !== response.rol){
+                                            alert('Bienvenid@' + user.usuario)
+                                            alert("Has ingresado como Administrador!")
+                                            window.location.href = 'pagina4.html'
+                                        }else if('Administrador' !== response.rol){
+                                            alert('Bienvenid@' + user.usuario)
+                                            alert("Has ingresado como Cliente!")
+                                            window.location.href = 'cliente.html'
+                                        }
 
-                }
-            },
-            error: function (error) {
-                // Manejar el error si es necesario
-                alert("Error al realizar la solicitud de inicio de sesión.");
-            }
-        })
-      })
+                                    } else {
+                                        // Mostrar un mensaje de error en caso de credenciales inválidas
+                                        alert("Oye mete bien el usuario y clave");
 
-});
+                                    }
+                                },
+                                error: function (error) {
+                                    // Manejar el error si es necesario
+                                    alert("Error al realizar la solicitud de inicio de sesión.");
+                                }
+                            })
+                        })
 
+                    });

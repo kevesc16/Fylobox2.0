@@ -23,6 +23,7 @@ public class UserController {
         String usuario = userLoginRequest.getUsuario();
         String password = userLoginRequest.getPassword();
 
+
         boolean loginSuccess = userService.loginUser(usuario, password);
 
         if (loginSuccess) {
